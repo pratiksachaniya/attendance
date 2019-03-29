@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="660.0" prefWidth="900.0" style="-fx-background-color: #fff;" stylesheets="@vfd.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="660.0" prefWidth="289.0" style="-fx-background-color: #272262;" stylesheets="@vfd.css">
+         <children>
+            <ImageView fitHeight="97.0" fitWidth="93.0" layoutX="98.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@LogoMakr_1wJdNX.png" />
+               </image>
+            </ImageView>
+            <Label layoutY="129.0" prefHeight="115.0" prefWidth="292.0" text="Attendance Management System" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Century Gothic" size="26.0" />
+               </font>
+               <padding>
+                  <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
+               </padding>
+            </Label>
+            <Label layoutX="34.0" layoutY="274.0" text="FACULTY LIST" textFill="#00b0f5">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Label>
+            <ScrollPane fitToWidth="true" hbarPolicy="NEVER" layoutX="14.0" layoutY="304.0" prefHeight="334.0" prefWidth="261.0" style="-fx-border-color: # #272262;">
+               <content>
+                  <VBox alignment="CENTER" prefHeight="513.0" prefWidth="246.0" styleClass="vbox" />
+               </content>
+            </ScrollPane>
+         </children>
+      </Pane>
+      <Pane layoutX="289.0" prefHeight="65.0" prefWidth="611.0" style="-fx-background-color: #3329b2;">
+         <children>
+            <Label alignment="CENTER" layoutY="17.0" prefHeight="23.0" prefWidth="611.0" text="View Faculty Details" textFill="#00b7ff">
+               <font>
+                  <Font name="Century Gothic" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <TextField layoutX="318.0" layoutY="145.0" prefHeight="45.0" prefWidth="258.0" promptText="Faculty's First Name" style="-fx-text-fill: #000; -fx-background-color: transparent; -fx-background-radius: 15; -fx-border-width: 1px; -fx-border-radius: 15; -fx-border-style: solid; -fx-border-color: rgb(220,220,220);">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+         <padding>
+            <Insets bottom="7.0" left="15.0" right="10.0" top="7.0" />
+         </padding>
+      </TextField>
+      <TextField layoutX="602.0" layoutY="145.0" prefHeight="45.0" prefWidth="258.0" promptText="Faculty's Last Name" style="-fx-text-fill: #000; -fx-background-color: transparent; -fx-background-radius: 15; -fx-border-width: 1px; -fx-border-radius: 15; -fx-border-style: solid; -fx-border-color: rgb(220,220,220);">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+         <padding>
+            <Insets bottom="7.0" left="15.0" right="10.0" top="7.0" />
+         </padding>
+      </TextField>
+      <TextField layoutX="319.0" layoutY="252.0" prefHeight="45.0" prefWidth="541.0" promptText="Faculty's Email Address" style="-fx-text-fill: #000; -fx-background-color: transparent; -fx-background-radius: 15; -fx-border-width: 1px; -fx-border-radius: 15; -fx-border-style: solid; -fx-border-color: rgb(220,220,220);">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+         <padding>
+            <Insets bottom="7.0" left="15.0" right="10.0" top="7.0" />
+         </padding>
+      </TextField>
+      <TextField layoutX="319.0" layoutY="357.0" prefHeight="45.0" prefWidth="299.0" promptText="Faculty's Contact Number" style="-fx-text-fill: #000; -fx-background-color: transparent; -fx-background-radius: 15; -fx-border-width: 1px; -fx-border-radius: 15; -fx-border-style: solid; -fx-border-color: rgb(220,220,220);">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+         <padding>
+            <Insets bottom="7.0" left="15.0" right="10.0" top="7.0" />
+         </padding>
+      </TextField>
+      <JFXCheckBox layoutX="339.0" layoutY="464.0" text="Male" textFill="GAINSBORO" unCheckedColor="GAINSBORO">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+      </JFXCheckBox>
+      <JFXCheckBox layoutX="469.0" layoutY="464.0" text="Female" textFill="GAINSBORO" unCheckedColor="GAINSBORO">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+      </JFXCheckBox>
+      <Label layoutX="332.0" layoutY="120.0" text="First Name">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="617.0" layoutY="120.0" text="Last Name">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="332.0" layoutY="225.0" text="Email Id">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="332.0" layoutY="328.0" text="Contact Number">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="332.0" layoutY="432.0" text="Gender">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="726.0" layoutY="573.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="140.0" style="-fx-background-color: #272262; -fx-background-radius: 20;" text="Close" textFill="WHITE" AnchorPane.topAnchor="573.0">
+         <font>
+            <Font name="Century Gothic" size="16.0" />
+         </font>
+         <padding>
+            <Insets bottom="5.0" top="5.0" />
+         </padding>
+      </Button>
+   </children>
+</AnchorPane>
